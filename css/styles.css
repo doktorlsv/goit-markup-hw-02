@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2e2f42;
+    color: #434455
     background-color: #fff;
     
 }
@@ -42,6 +42,20 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
 }
+.header-logo-black {
+    
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+
+
+
+
 
 .menu-list {}
 
@@ -56,7 +70,9 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;}
 
-.address {}
+.address {
+    font-style: normal
+}
 
 .address-navigation {}
 
@@ -69,7 +85,9 @@ a {
     letter-spacing: 0.02em;
     color: #434455;}
 
-.address-link {font-family: "Roboto", sans-serif;
+.address-link {
+    
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
 
@@ -102,14 +120,23 @@ a {
 .button {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
+    font-weight: 500
 }
-.button-text {font-family: "Roboto", sans-serif;
+.button-text {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
-    color: #fff;}
+    color: #fff;
+}
 
+
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+    
+}
 
 
 
@@ -168,6 +195,7 @@ a {
 }
 
 .subtitle {
+    text-transform: capitalize
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -214,7 +242,9 @@ a {
 
 .section-portfolio {}
 
-.subtitle {}
+.subtitle {
+    text-transform: capitalize
+}
 
 .section-portfolio-navigation {}
 
@@ -271,7 +301,15 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-
+.footer-logo-black {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
 .footer-txt{
     
     font-family: "Roboto", sans-serif;
