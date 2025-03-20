@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455
-    background-color: #fff;
+    color: #434455;
+    background-color: #FFFFFF;
     
 }
 
@@ -117,19 +117,24 @@ a {
     color: #fff;
 }
 
-.button {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
-    font-weight: 500
-}
-.button-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.04em;
-    color: #fff;
-}
+
+ .button {
+     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+     background: #4d5ae5;
+     font-weight: 500;
+
+     font-family: "Roboto", sans-serif;
+     font-size: 16px;
+     line-height: 150%;
+     letter-spacing: 0.04em;
+     color:#ffffff;
+
+     cursor: pointer;
+ }
+
+
+.button-text {}
+   
 
 
 .button:hover,
