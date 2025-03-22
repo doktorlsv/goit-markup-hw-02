@@ -20,8 +20,6 @@ a {
     background: #fff;
 }
 
-.header-navigation {}
-
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -33,23 +31,7 @@ a {
 }
 
 .header-logo-color {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #4d5ae5;
-}
-
-.header-logo-black {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2e2f42;
 }
 
 .menu-list {}
@@ -63,6 +45,11 @@ a {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.header-menu-itemnext:hover,
+.header-menu-itemnext:focus {
+    color: #404bbf;
 }
 
 
@@ -129,8 +116,7 @@ a {
     color: #ffffff;
     cursor: pointer;
     border: none;
-    padding: 12px 24px;
-    border-radius: 4px;
+   
 }
 
 .button:hover,
@@ -224,7 +210,9 @@ a {
 
 .section-darkwhite-navigation {}
 
-.section-darkwhite-item {}
+.section-darkwhite-item {
+    background-color: #FFFFFF;
+}
 
 .section-title {
     font-family: "Roboto", sans-serif;
