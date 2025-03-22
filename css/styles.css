@@ -52,6 +52,7 @@ a {
 .header-menu-itemnext:hover,
 .header-menu-itemnext:focus {
     color: #404bbf;
+   
 }
 
 
@@ -304,15 +305,13 @@ a {
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
+    /* Для кольору логотипу */
 }
 
 .footer-logo-color {
-    color: #4d5ae5;
-}
-
-.footer-logo-black {
     color: #f4f4fd;
+    /* Колір для "Studio" */
 }
 
 .footer-txt {
