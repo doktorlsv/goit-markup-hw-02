@@ -28,12 +28,12 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    /* Для "Web" */
+
 }
 
 .header-logo-color {
     color: #2e2f42;
-    /* Для "Studio" */
+
 }
 
 .menu-list {}
@@ -52,12 +52,7 @@ a {
 .header-menu-itemnext:hover,
 .header-menu-itemnext:focus {
     color: #404bbf;
-   
 }
-
-
-
-
 
 .address {
     font-style: normal;
@@ -74,6 +69,11 @@ a {
     color: #434455;
 }
 
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+}
+
 .address-link {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -82,7 +82,6 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
 
 
 
